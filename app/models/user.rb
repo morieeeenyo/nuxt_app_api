@@ -10,7 +10,7 @@ class User < ApplicationRecord
   validates :name, presence: true, length: { maximum: 30, allow_nil: true }
 
   VALID_EMAIL_REGEX = /\A\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*\z/.freeze
-  validates :email, presence: true, email: { allow_blank: true }, format: { with: VALID_EMAIL_REGEX }
+  validates :email, presence: true, format: { with: VALID_EMAIL_REGEX }
   validates :email, uniqueness: { scope: :activated } # ステータスの有効・無効に対してemailは一意
 
   VALID_PASSWORD_REGEX = /\A[\w\-]+\z/.freeze # 半角英数もしくは-_
