@@ -48,3 +48,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rack-cors'
+
+# コンソール出力結果を表にする Doc: https://github.com/cldwalker/hirb
+gem 'hirb'
+# コンソール文字列補正 Doc: https://github.com/steakknife/hirb-unicode
+gem 'hirb-unicode-steakknife'
+
+gem 'bcrypt'
+
+gem 'pry-rails'
