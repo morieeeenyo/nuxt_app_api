@@ -1,7 +1,5 @@
 class Api::HelloController < ApplicationController
-
   def index
-    render json: "Hello"
+    render json: 'Hello'
   end
-
 end
