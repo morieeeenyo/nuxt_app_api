@@ -5,7 +5,7 @@ module Resources
         # http://localhost:3000/api/users
         desc 'user list'
         get do
-          present User.all
+          present User.all.as_json(only: [:id, :name, :email, :created_at])
         end
       end
     end
