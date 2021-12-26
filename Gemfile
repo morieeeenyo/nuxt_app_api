@@ -63,3 +63,4 @@ gem 'grape' # RESTful APIを開発するためのDSLを備えたフレームワ�
 gem 'grape-swagger' # Grape APIからのドキュメント生成
 gem 'grape-entity' # Grapeフレームワークにレスポンス整形のツールを加える
 gem 'grape-swagger-entity' # grape-entityからのドキュメント生成
+gem 'grape-swagger-rails'

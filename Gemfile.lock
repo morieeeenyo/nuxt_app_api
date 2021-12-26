@@ -110,6 +110,8 @@ GEM
     grape-swagger-entity (0.5.1)
       grape-entity (>= 0.6.0)
       grape-swagger (>= 1.2.0)
+    grape-swagger-rails (0.3.1)
+      railties (>= 3.2.12)
     hirb (0.7.3)
     hirb-unicode-steakknife (0.0.9)
       hirb (~> 0.5)
@@ -263,6 +265,7 @@ DEPENDENCIES
   grape-entity
   grape-swagger
   grape-swagger-entity
+  grape-swagger-rails
   hirb
   hirb-unicode-steakknife
   listen (>= 3.0.5, < 3.2)
